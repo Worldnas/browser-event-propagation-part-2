@@ -1,0 +1,30 @@
+table {
+	font-size: 20px;
+	margin: auto;
+	margin-top: 250px;
+	border-collapse:collapse;
+}
+th,td{
+	width: 1.2em;
+	line-height: 2em;
+	text-align: right;
+	padding: 0 0.4em;
+	color: #333;
+	border: 2px solid #666;
+	cursor: pointer
+}
+th{
+	color: #fff;
+	background-color: #333;
+}
+col.active{
+	background-color: #ddd
+}
+tr.active td{
+	background-color: #333
+}
+tr td:hover,tr td:focus{
+	color: #f00;
+	background-color: #ffc
+}
+
